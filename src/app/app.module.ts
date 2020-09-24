@@ -10,6 +10,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { ProfileComponent } from './Components/profile/profile.component';
 import { MatTableModule } from '@angular/material/table';
 import {MatButtonModule} from '@angular/material/button';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import {MatButtonModule} from '@angular/material/button';
     MatIconModule,
     MatGridListModule,
     MatTableModule,
-    MatButtonModule
+    MatButtonModule,
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
